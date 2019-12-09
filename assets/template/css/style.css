@@ -1,0 +1,248 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  color: #5a5a5a;
+}
+
+/* navbar */
+
+.navbar-dark, .navbar {
+  min-height: 70px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.navbar ul li a, a.navlink {
+  color: #fff !important;
+}
+.navbar ul li a:hover {
+  color: #ff0 !important;
+}
+.dropdown-menu {
+  background-color: #000;
+}
+.dropdown-menu a:hover {
+  background-color: #999 !important;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 0;
+
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+  background-color: #f5f5f5;
+  padding: 10px 2px;
+  border-radius: 10px;
+  opacity: 0.8;
+  color: #000;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing {
+  margin-top: 4rem;
+}
+
+.marketing h2 {
+  font-weight: normal;
+  margin-top: 20px;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+/* Album CSS */
+
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.card h2 {
+  font-size: 22px;
+  border-bottom: : solid thin #eee;
+}
+
+.card h2 a {
+  color: #f60;
+}
+.card h2 a:hover {
+  text-decoration: none;
+  color: #900;
+}
+
+/* artikel */
+
+.artikel {
+  min-height: 300px;
+  background-color: #fff;
+  text-align: justify;
+}
+
+aside {
+  border-radius: 5px;
+  border: solid thin #eee;
+  background-color: #f5f5f5;
+  padding: 10px 20px;
+}
+aside h3 {
+  border-bottom: solid thin #eee;
+  font-size: 22px;
+}
+aside ul {
+  padding: 0;
+  margin: 0;
+}
+aside ul li {
+  padding: 5px 6px;
+  list-style: none;
+  border-bottom: dotted thin #f60;
+}
+aside ul li a {
+  color: #f60;
+}
+aside ul li a:hover{
+  color: #900;
+  text-decoration: none;
+}
+
+/* jarak */
+.jarak {
+  margin-top: 4rem;
+}
+
+iframe{
+  width: 100%;
+  height: auto;
+  min-height: 400px;
+}
+/* Footer */
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  min-height: 40px; /* Set the fixed height of the footer here */
+  line-height: 0px; /* Vertically center the text there */
+  background-color: #000;
+  color: #fff;
+}
+
+.footer a {
+  color: #ff6;
+  text-decoration: none;
+}
+
